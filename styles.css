@@ -83,7 +83,7 @@
   .presentacion {
     width: 100%;
     height: 100vh;
-    background-image: url("./assets/images/profile/hero-tema-oscuro.jpg");
+    background-image: url("./assets/images/profile/IMG-20231014-WA0050.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -97,19 +97,19 @@
     align-items: flex-start;
     gap: 3rem;
     background: linear-gradient(
-      90deg,
-      var(--fondo-primario-transparente) 20%,
-      transparent 40%
+    90deg,
+    var(--fondo-primario-transparente) 20%,
+    transparent 40%
     );
-  }
-  .presentacion__contenedor_botones {
+}
+.presentacion__contenedor_botones {
     width: 420px;
     display: flex;
     justify-content: center;
     gap: 1rem;
-  }
-  
-  .presentacion__titulo {
+}
+
+.presentacion__titulo {
     font-size: var(--presentacion-titulo-tamanio);
     color: var(--color-primario);
     text-shadow: 2px 2px 2px var(--fondo-secundario);
@@ -205,7 +205,6 @@
     top: auto;
     bottom: 40px;
 }
-
 .seccion_descripcion__imagen:hover, .seccion_descripcion__imagen:focus {
     width: 100%;
     height: 100%;
